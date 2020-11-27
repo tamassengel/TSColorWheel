@@ -1,0 +1,6 @@
+framework module TSColorWheel {
+  umbrella header "TSColorWheel-umbrella.h"
+
+  export *
+  module * { export * }
+}

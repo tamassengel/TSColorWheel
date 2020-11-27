@@ -1,11 +1,13 @@
-use_frameworks!
+platform :watchos, '6.0'
+install! 'cocoapods', :deterministic_uuids => false
 
-target 'TSColorWheel_Example' do
+target 'TSColorWheel Example WatchKit App' do
+  use_frameworks!
+  inhibit_all_warnings!
+
   pod 'TSColorWheel', :path => '../'
 
-  target 'TSColorWheel_Tests' do
-    inherit! :search_paths
-
-    
+  target 'TSColorWheel Example WatchKit Extension' do
+      inherit! :complete
   end
 end

@@ -1,0 +1,24 @@
+{
+  "name": "TSColorWheel",
+  "version": "0.1.0",
+  "summary": "A short description of TSColorWheel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tamás Sengel/TSColorWheel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tamás Sengel": "tamas.sengel@toptal.com"
+  },
+  "source": {
+    "git": "https://github.com/Tamás Sengel/TSColorWheel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0",
+    "watchos": "6.0"
+  },
+  "source_files": "TSColorWheel/Classes/**/*",
+  "resources": "TSColorWheel/Assets/**"
+}

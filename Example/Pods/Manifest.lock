@@ -1,0 +1,16 @@
+PODS:
+  - TSColorWheel (0.1.0)
+
+DEPENDENCIES:
+  - TSColorWheel (from `../`)
+
+EXTERNAL SOURCES:
+  TSColorWheel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSColorWheel: 334407bec00710137424b2e364e4880bba43ce2c
+
+PODFILE CHECKSUM: 3d534e6afb467f1f0415980a9450765fd51b1029
+
+COCOAPODS: 1.10.0

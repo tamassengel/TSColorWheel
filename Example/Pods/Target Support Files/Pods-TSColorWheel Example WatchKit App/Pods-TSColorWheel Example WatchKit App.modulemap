@@ -1,0 +1,6 @@
+framework module Pods_TSColorWheel_Example_WatchKit_App {
+  umbrella header "Pods-TSColorWheel Example WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}

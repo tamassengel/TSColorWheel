@@ -14,23 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "TSColorWheel_Example.app"
-               BlueprintName = "TSColorWheel_Example"
+               BlueprintIdentifier = "1F43BBAB25716107002A72C9"
+               BuildableName = "TSColorWheel Example WatchKit App.app"
+               BlueprintName = "TSColorWheel Example WatchKit App"
                ReferencedContainer = "container:TSColorWheel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "TSColorWheel_Tests.xctest"
-               BlueprintName = "TSColorWheel_Tests"
+               BlueprintIdentifier = "1F43BBA825716107002A72C9"
+               BuildableName = "TSColorWheel Example.app"
+               BlueprintName = "TSColorWheel Example"
                ReferencedContainer = "container:TSColorWheel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,26 +41,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "TSColorWheel_Example.app"
-            BlueprintName = "TSColorWheel_Example"
-            ReferencedContainer = "container:TSColorWheel.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "TSColorWheel_Tests.xctest"
-               BlueprintName = "TSColorWheel_Tests"
-               ReferencedContainer = "container:TSColorWheel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -77,9 +58,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "TSColorWheel_Example.app"
-            BlueprintName = "TSColorWheel_Example"
+            BlueprintIdentifier = "1F43BBAB25716107002A72C9"
+            BuildableName = "TSColorWheel Example WatchKit App.app"
+            BlueprintName = "TSColorWheel Example WatchKit App"
             ReferencedContainer = "container:TSColorWheel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "TSColorWheel_Example.app"
-            BlueprintName = "TSColorWheel_Example"
+            BlueprintIdentifier = "1F43BBAB25716107002A72C9"
+            BuildableName = "TSColorWheel Example WatchKit App.app"
+            BlueprintName = "TSColorWheel Example WatchKit App"
             ReferencedContainer = "container:TSColorWheel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
