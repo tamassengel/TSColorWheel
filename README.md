@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 [![Platform](https://img.shields.io/cocoapods/p/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 
+A color wheel for watchOS based on [Colorful](https://github.com/hayashi311/Color-Picker-for-iOS)
+
 <img src="capture.gif" alt="Screen Capture" width="180">
 
 ## Example
