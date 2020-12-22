@@ -1,6 +1,5 @@
 # TSColorWheel
 
-[![CI Status](https://img.shields.io/travis/Tamás Sengel/TSColorWheel.svg?style=flat)](https://travis-ci.org/Tamás Sengel/TSColorWheel)
 [![Version](https://img.shields.io/cocoapods/v/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 [![License](https://img.shields.io/cocoapods/l/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 [![Platform](https://img.shields.io/cocoapods/p/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
@@ -10,6 +9,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+watchOS 6.0
 
 ## Installation
 
@@ -22,7 +23,7 @@ pod 'TSColorWheel'
 
 ## Author
 
-Tamás Sengel, tamas.sengel@toptal.com
+Tamás Sengel
 
 ## License
 
