@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 [![Platform](https://img.shields.io/cocoapods/p/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 
-![Screen Capture](capture.gif | width=180)
+<img src="capture.gif" alt="Screen Capture" width="180">
 
 ## Example
 
