@@ -46,6 +46,7 @@ pod 'TSColorWheel'
 ## Author
 
 Tamás Sengel
+https://tamassengel.ml
 
 ## License
 
