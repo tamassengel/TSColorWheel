@@ -6,7 +6,7 @@
 
 A color wheel for watchOS based on [Colorful](https://github.com/hayashi311/Color-Picker-for-iOS)
 
-<img src="capture.gif" alt="Screen Capture" width="180">
+<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/capture.gif" alt="Screen Capture" width="180">
 
 ## Usage
 
