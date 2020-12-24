@@ -16,8 +16,8 @@ You can use `TSColorWheelController` in your storyboard (recommended), or altern
 
 To use TSColorWheel in the storyboard, add a new Hosting Controller and change its Custom Class as follows:
 
-Class: TSColorWheelController  
-Module: TSColorWheel
+**Class:** TSColorWheelController  
+**Module:** TSColorWheel
 
 Make sure to **uncheck** Inherit Module From Target.
 
