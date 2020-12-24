@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/icon.png">
+<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/icon.png" width="100">
 
 # TSColorWheel
 
