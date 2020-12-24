@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F409F6E25943A1500F3BE45 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F409F6D25943A1500F3BE45 /* ImageConstants.swift */; };
-		46EB2E00000260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* Foundation.framework */; };
-		46EB2E00000270 /* HSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* HSColor.swift */; };
-		46EB2E00000280 /* HSVColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* HSVColor.swift */; };
-		46EB2E00000290 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* RGBColor.swift */; };
-		46EB2E000002A0 /* TSColorWheelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* TSColorWheelSettings.swift */; };
-		46EB2E000002C0 /* TSColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000140 /* TSColorWheel.swift */; };
-		46EB2E000002D0 /* TSColorWheelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* TSColorWheelController.swift */; };
-		46EB2E000002E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* Assets.xcassets */; };
-		46EB2E00000340 /* TSColorWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000330 /* TSColorWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000380 /* TSColorWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000370 /* TSColorWheel-dummy.m */; };
-		46EB2E00000420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* Foundation.framework */; };
-		46EB2E00000490 /* Pods-TSColorWheel Example WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000480 /* Pods-TSColorWheel Example WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000004E0 /* Pods-TSColorWheel Example WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004D0 /* Pods-TSColorWheel Example WatchKit App-dummy.m */; };
-		46EB2E00000580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* Foundation.framework */; };
-		46EB2E000005F0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005E0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000640 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000630 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m */; };
+		46EB2E00000270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* Foundation.framework */; };
+		46EB2E00000280 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* ImageConstants.swift */; };
+		46EB2E00000290 /* HSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* HSColor.swift */; };
+		46EB2E000002A0 /* HSVColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* HSVColor.swift */; };
+		46EB2E000002B0 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* RGBColor.swift */; };
+		46EB2E000002C0 /* TSColorWheelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* TSColorWheelSettings.swift */; };
+		46EB2E000002D0 /* TSColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* TSColorWheel.swift */; };
+		46EB2E000002E0 /* TSColorWheelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* TSColorWheelController.swift */; };
+		46EB2E000002F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* Assets.xcassets */; };
+		46EB2E00000350 /* TSColorWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000340 /* TSColorWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000390 /* TSColorWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000380 /* TSColorWheel-dummy.m */; };
+		46EB2E00000430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* Foundation.framework */; };
+		46EB2E000004A0 /* Pods-TSColorWheel Example WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000490 /* Pods-TSColorWheel Example WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000004F0 /* Pods-TSColorWheel Example WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004E0 /* Pods-TSColorWheel Example WatchKit App-dummy.m */; };
+		46EB2E00000590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* Foundation.framework */; };
+		46EB2E00000600 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000005F0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000650 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000640 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E00000650 /* PBXContainerItemProxy */ = {
+		46EB2E00000660 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F79A64EC0D27B1F0E4C49FD3D3E12920;
 			remoteInfo = TSColorWheel;
 		};
-		46EB2E00000670 /* PBXContainerItemProxy */ = {
+		46EB2E00000680 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
@@ -44,85 +44,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1758483FAD95F0C99F45E9E462D61C96 /* TSColorWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSColorWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F409F6D25943A1500F3BE45 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
-		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E000000E0 /* HSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSColor.swift; sourceTree = "<group>"; };
-		46EB2E000000F0 /* HSVColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSVColor.swift; sourceTree = "<group>"; };
-		46EB2E00000100 /* RGBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
-		46EB2E00000110 /* TSColorWheelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSColorWheelSettings.swift; sourceTree = "<group>"; };
-		46EB2E00000140 /* TSColorWheel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSColorWheel.swift; sourceTree = "<group>"; };
-		46EB2E00000150 /* TSColorWheelController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSColorWheelController.swift; sourceTree = "<group>"; };
-		46EB2E00000160 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TSColorWheel/Assets/Assets.xcassets; sourceTree = "<group>"; };
-		46EB2E00000180 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46EB2E00000190 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		46EB2E000001A0 /* TSColorWheel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TSColorWheel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E00000250 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46EB2E00000300 /* TSColorWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSColorWheel.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000310 /* TSColorWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSColorWheel.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000320 /* TSColorWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSColorWheel.modulemap; sourceTree = "<group>"; };
-		46EB2E00000330 /* TSColorWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSColorWheel-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000350 /* TSColorWheel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSColorWheel-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000360 /* TSColorWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSColorWheel-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000370 /* TSColorWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSColorWheel-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000440 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000450 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000460 /* Pods-TSColorWheel Example WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000470 /* Pods-TSColorWheel Example WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSColorWheel Example WatchKit App.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000480 /* Pods-TSColorWheel Example WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSColorWheel Example WatchKit App-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000004A0 /* Pods-TSColorWheel Example WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSColorWheel Example WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E000004B0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E000004C0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSColorWheel Example WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E000004D0 /* Pods-TSColorWheel Example WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSColorWheel Example WatchKit App-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000005A0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000005B0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000005C0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000005D0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.modulemap"; sourceTree = "<group>"; };
-		46EB2E000005E0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000600 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000610 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000620 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000630 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
-		87F07B1DC12B9B7E9DBD57B6BCC739D6 /* Pods_TSColorWheel_Example_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSColorWheel_Example_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A228E150BD9957221AD03E4F7AD82A /* Pods_TSColorWheel_Example_WatchKit_App_TSColorWheel_Example_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSColorWheel_Example_WatchKit_App_TSColorWheel_Example_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1758483FAD95F0C99F45E9E462D61C96 /* TSColorWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSColorWheel.framework; path = TSColorWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000000F0 /* ImageConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		46EB2E00000100 /* HSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSColor.swift; sourceTree = "<group>"; };
+		46EB2E00000110 /* HSVColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSVColor.swift; sourceTree = "<group>"; };
+		46EB2E00000120 /* RGBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
+		46EB2E00000130 /* TSColorWheelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSColorWheelSettings.swift; sourceTree = "<group>"; };
+		46EB2E00000150 /* TSColorWheel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSColorWheel.swift; sourceTree = "<group>"; };
+		46EB2E00000160 /* TSColorWheelController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSColorWheelController.swift; sourceTree = "<group>"; };
+		46EB2E00000170 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TSColorWheel/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		46EB2E00000190 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E000001A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E000001B0 /* TSColorWheel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSColorWheel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EB2E00000310 /* TSColorWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSColorWheel.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000320 /* TSColorWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSColorWheel.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000330 /* TSColorWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSColorWheel.modulemap; sourceTree = "<group>"; };
+		46EB2E00000340 /* TSColorWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSColorWheel-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000360 /* TSColorWheel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSColorWheel-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000370 /* TSColorWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSColorWheel-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00000380 /* TSColorWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSColorWheel-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000450 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000460 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000470 /* Pods-TSColorWheel Example WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000480 /* Pods-TSColorWheel Example WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSColorWheel Example WatchKit App.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000490 /* Pods-TSColorWheel Example WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSColorWheel Example WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000004B0 /* Pods-TSColorWheel Example WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSColorWheel Example WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E000004C0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000004D0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSColorWheel Example WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000004E0 /* Pods-TSColorWheel Example WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSColorWheel Example WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000005B0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000005C0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000005D0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000005E0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		46EB2E000005F0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000610 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00000620 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000630 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000640 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		87F07B1DC12B9B7E9DBD57B6BCC739D6 /* Pods_TSColorWheel_Example_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TSColorWheel_Example_WatchKit_App.framework; path = "Pods-TSColorWheel Example WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A228E150BD9957221AD03E4F7AD82A /* Pods_TSColorWheel_Example_WatchKit_App_TSColorWheel_Example_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TSColorWheel_Example_WatchKit_App_TSColorWheel_Example_WatchKit_Extension.framework; path = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E00000220 /* Frameworks */ = {
+		46EB2E00000230 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000260 /* Foundation.framework in Frameworks */,
+				46EB2E00000270 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000400 /* Frameworks */ = {
+		46EB2E00000410 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000420 /* Foundation.framework in Frameworks */,
+				46EB2E00000430 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000560 /* Frameworks */ = {
+		46EB2E00000570 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000580 /* Foundation.framework in Frameworks */,
+				46EB2E00000590 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F409F6C259439EB00F3BE45 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				1F409F6D25943A1500F3BE45 /* ImageConstants.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
 		46EB2E00000010 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +139,7 @@
 		46EB2E00000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000240 /* watchOS */,
+				46EB2E00000250 /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,8 +147,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000430 /* Pods-TSColorWheel Example WatchKit App */,
-				46EB2E00000590 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension */,
+				46EB2E00000440 /* Pods-TSColorWheel Example WatchKit App */,
+				46EB2E000005A0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -172,11 +164,11 @@
 		46EB2E000000B0 /* TSColorWheel */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000160 /* Assets.xcassets */,
+				46EB2E00000170 /* Assets.xcassets */,
 				46EB2E000000D0 /* Models */,
-				46EB2E00000170 /* Pod */,
-				46EB2E000002F0 /* Support Files */,
-				46EB2E00000120 /* Views */,
+				46EB2E00000180 /* Pod */,
+				46EB2E00000300 /* Support Files */,
+				46EB2E00000140 /* Views */,
 			);
 			name = TSColorWheel;
 			path = ../..;
@@ -185,88 +177,97 @@
 		46EB2E000000D0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1F409F6C259439EB00F3BE45 /* Constants */,
-				46EB2E000000E0 /* HSColor.swift */,
-				46EB2E000000F0 /* HSVColor.swift */,
-				46EB2E00000100 /* RGBColor.swift */,
-				46EB2E00000110 /* TSColorWheelSettings.swift */,
+				46EB2E00000100 /* HSColor.swift */,
+				46EB2E00000110 /* HSVColor.swift */,
+				46EB2E00000120 /* RGBColor.swift */,
+				46EB2E00000130 /* TSColorWheelSettings.swift */,
+				46EB2E000000E0 /* Constants */,
 			);
 			name = Models;
 			path = TSColorWheel/Classes/Models;
 			sourceTree = "<group>";
 		};
-		46EB2E00000120 /* Views */ = {
+		46EB2E000000E0 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000140 /* TSColorWheel.swift */,
-				46EB2E00000150 /* TSColorWheelController.swift */,
+				46EB2E000000F0 /* ImageConstants.swift */,
+			);
+			name = Constants;
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		46EB2E00000140 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000150 /* TSColorWheel.swift */,
+				46EB2E00000160 /* TSColorWheelController.swift */,
 			);
 			name = Views;
 			path = TSColorWheel/Classes/Views;
 			sourceTree = "<group>";
 		};
-		46EB2E00000170 /* Pod */ = {
+		46EB2E00000180 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000180 /* LICENSE */,
-				46EB2E00000190 /* README.md */,
-				46EB2E000001A0 /* TSColorWheel.podspec */,
+				46EB2E00000190 /* LICENSE */,
+				46EB2E000001A0 /* README.md */,
+				46EB2E000001B0 /* TSColorWheel.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		46EB2E00000240 /* watchOS */ = {
+		46EB2E00000250 /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000250 /* Foundation.framework */,
+				46EB2E00000260 /* Foundation.framework */,
 			);
 			name = watchOS;
 			sourceTree = "<group>";
 		};
-		46EB2E000002F0 /* Support Files */ = {
+		46EB2E00000300 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000320 /* TSColorWheel.modulemap */,
-				46EB2E00000370 /* TSColorWheel-dummy.m */,
-				46EB2E00000350 /* TSColorWheel-Info.plist */,
-				46EB2E00000360 /* TSColorWheel-prefix.pch */,
-				46EB2E00000330 /* TSColorWheel-umbrella.h */,
-				46EB2E00000300 /* TSColorWheel.debug.xcconfig */,
-				46EB2E00000310 /* TSColorWheel.release.xcconfig */,
+				46EB2E00000330 /* TSColorWheel.modulemap */,
+				46EB2E00000380 /* TSColorWheel-dummy.m */,
+				46EB2E00000360 /* TSColorWheel-Info.plist */,
+				46EB2E00000370 /* TSColorWheel-prefix.pch */,
+				46EB2E00000340 /* TSColorWheel-umbrella.h */,
+				46EB2E00000310 /* TSColorWheel.debug.xcconfig */,
+				46EB2E00000320 /* TSColorWheel.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TSColorWheel";
 			sourceTree = "<group>";
 		};
-		46EB2E00000430 /* Pods-TSColorWheel Example WatchKit App */ = {
+		46EB2E00000440 /* Pods-TSColorWheel Example WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000470 /* Pods-TSColorWheel Example WatchKit App.modulemap */,
-				46EB2E000004C0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.markdown */,
-				46EB2E000004B0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.plist */,
-				46EB2E000004D0 /* Pods-TSColorWheel Example WatchKit App-dummy.m */,
-				46EB2E000004A0 /* Pods-TSColorWheel Example WatchKit App-frameworks.sh */,
-				46EB2E00000460 /* Pods-TSColorWheel Example WatchKit App-Info.plist */,
-				46EB2E00000480 /* Pods-TSColorWheel Example WatchKit App-umbrella.h */,
-				46EB2E00000450 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */,
-				46EB2E00000440 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */,
+				46EB2E00000480 /* Pods-TSColorWheel Example WatchKit App.modulemap */,
+				46EB2E000004D0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.markdown */,
+				46EB2E000004C0 /* Pods-TSColorWheel Example WatchKit App-acknowledgements.plist */,
+				46EB2E000004E0 /* Pods-TSColorWheel Example WatchKit App-dummy.m */,
+				46EB2E000004B0 /* Pods-TSColorWheel Example WatchKit App-frameworks.sh */,
+				46EB2E00000470 /* Pods-TSColorWheel Example WatchKit App-Info.plist */,
+				46EB2E00000490 /* Pods-TSColorWheel Example WatchKit App-umbrella.h */,
+				46EB2E00000460 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */,
+				46EB2E00000450 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */,
 			);
 			name = "Pods-TSColorWheel Example WatchKit App";
 			path = "Target Support Files/Pods-TSColorWheel Example WatchKit App";
 			sourceTree = "<group>";
 		};
-		46EB2E00000590 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension */ = {
+		46EB2E000005A0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000005D0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.modulemap */,
-				46EB2E00000620 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.markdown */,
-				46EB2E00000610 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.plist */,
-				46EB2E00000630 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m */,
-				46EB2E00000600 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-frameworks.sh */,
-				46EB2E000005C0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-Info.plist */,
-				46EB2E000005E0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h */,
-				46EB2E000005B0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig */,
-				46EB2E000005A0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig */,
+				46EB2E000005E0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.modulemap */,
+				46EB2E00000630 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.markdown */,
+				46EB2E00000620 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-acknowledgements.plist */,
+				46EB2E00000640 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m */,
+				46EB2E00000610 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-frameworks.sh */,
+				46EB2E000005D0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-Info.plist */,
+				46EB2E000005F0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h */,
+				46EB2E000005C0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig */,
+				46EB2E000005B0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig */,
 			);
 			name = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension";
 			path = "Target Support Files/Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension";
@@ -275,27 +276,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E00000200 /* Headers */ = {
+		46EB2E00000210 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000340 /* TSColorWheel-umbrella.h in Headers */,
+				46EB2E00000350 /* TSColorWheel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000003E0 /* Headers */ = {
+		46EB2E000003F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000490 /* Pods-TSColorWheel Example WatchKit App-umbrella.h in Headers */,
+				46EB2E000004A0 /* Pods-TSColorWheel Example WatchKit App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000540 /* Headers */ = {
+		46EB2E00000550 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000005F0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h in Headers */,
+				46EB2E00000600 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,17 +305,17 @@
 /* Begin PBXNativeTarget section */
 		71CA8E7E45A975E20992A409179E8EEC /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000500 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension" */;
+			buildConfigurationList = 46EB2E00000510 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension" */;
 			buildPhases = (
-				46EB2E00000540 /* Headers */,
-				46EB2E00000550 /* Sources */,
-				46EB2E00000560 /* Frameworks */,
-				46EB2E00000570 /* Resources */,
+				46EB2E00000550 /* Headers */,
+				46EB2E00000560 /* Sources */,
+				46EB2E00000570 /* Frameworks */,
+				46EB2E00000580 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000680 /* PBXTargetDependency */,
+				46EB2E00000690 /* PBXTargetDependency */,
 			);
 			name = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension";
 			productName = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension";
@@ -323,17 +324,17 @@
 		};
 		BBDA7542814DA627089D6965537B5961 /* Pods-TSColorWheel Example WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000003A0 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App" */;
+			buildConfigurationList = 46EB2E000003B0 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App" */;
 			buildPhases = (
-				46EB2E000003E0 /* Headers */,
-				46EB2E000003F0 /* Sources */,
-				46EB2E00000400 /* Frameworks */,
-				46EB2E00000410 /* Resources */,
+				46EB2E000003F0 /* Headers */,
+				46EB2E00000400 /* Sources */,
+				46EB2E00000410 /* Frameworks */,
+				46EB2E00000420 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000660 /* PBXTargetDependency */,
+				46EB2E00000670 /* PBXTargetDependency */,
 			);
 			name = "Pods-TSColorWheel Example WatchKit App";
 			productName = "Pods-TSColorWheel Example WatchKit App";
@@ -342,12 +343,12 @@
 		};
 		F79A64EC0D27B1F0E4C49FD3D3E12920 /* TSColorWheel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000001C0 /* Build configuration list for PBXNativeTarget "TSColorWheel" */;
+			buildConfigurationList = 46EB2E000001D0 /* Build configuration list for PBXNativeTarget "TSColorWheel" */;
 			buildPhases = (
-				46EB2E00000200 /* Headers */,
-				46EB2E00000210 /* Sources */,
-				46EB2E00000220 /* Frameworks */,
-				46EB2E00000230 /* Resources */,
+				46EB2E00000210 /* Headers */,
+				46EB2E00000220 /* Sources */,
+				46EB2E00000230 /* Frameworks */,
+				46EB2E00000240 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -366,11 +367,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					BBDA7542814DA627089D6965537B5961 = {
-						LastSwiftMigration = 1230;
-					};
-				};
 			};
 			buildConfigurationList = 46EB2E00000030 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -393,22 +389,22 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46EB2E00000230 /* Resources */ = {
+		46EB2E00000240 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000002E0 /* Assets.xcassets in Resources */,
+				46EB2E000002F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000410 /* Resources */ = {
+		46EB2E00000420 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000570 /* Resources */ = {
+		46EB2E00000580 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,51 +414,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E00000210 /* Sources */ = {
+		46EB2E00000220 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000270 /* HSColor.swift in Sources */,
-				46EB2E00000280 /* HSVColor.swift in Sources */,
-				46EB2E00000290 /* RGBColor.swift in Sources */,
-				46EB2E00000380 /* TSColorWheel-dummy.m in Sources */,
-				46EB2E000002C0 /* TSColorWheel.swift in Sources */,
-				46EB2E000002D0 /* TSColorWheelController.swift in Sources */,
-				46EB2E000002A0 /* TSColorWheelSettings.swift in Sources */,
+				46EB2E00000290 /* HSColor.swift in Sources */,
+				46EB2E000002A0 /* HSVColor.swift in Sources */,
+				46EB2E00000280 /* ImageConstants.swift in Sources */,
+				46EB2E000002B0 /* RGBColor.swift in Sources */,
+				46EB2E00000390 /* TSColorWheel-dummy.m in Sources */,
+				46EB2E000002D0 /* TSColorWheel.swift in Sources */,
+				46EB2E000002E0 /* TSColorWheelController.swift in Sources */,
+				46EB2E000002C0 /* TSColorWheelSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000003F0 /* Sources */ = {
+		46EB2E00000400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000004E0 /* Pods-TSColorWheel Example WatchKit App-dummy.m in Sources */,
-				1F409F6E25943A1500F3BE45 /* ImageConstants.swift in Sources */,
+				46EB2E000004F0 /* Pods-TSColorWheel Example WatchKit App-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000550 /* Sources */ = {
+		46EB2E00000560 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000640 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m in Sources */,
+				46EB2E00000650 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E00000660 /* PBXTargetDependency */ = {
+		46EB2E00000670 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSColorWheel;
 			target = F79A64EC0D27B1F0E4C49FD3D3E12920 /* TSColorWheel */;
-			targetProxy = 46EB2E00000650 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000660 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000680 /* PBXTargetDependency */ = {
+		46EB2E00000690 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSColorWheel;
 			target = F79A64EC0D27B1F0E4C49FD3D3E12920 /* TSColorWheel */;
-			targetProxy = 46EB2E00000670 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000680 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -595,9 +591,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000001D0 /* Release */ = {
+		46EB2E000001E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000310 /* TSColorWheel.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000320 /* TSColorWheel.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,9 +627,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000001E0 /* Debug */ = {
+		46EB2E000001F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000300 /* TSColorWheel.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000310 /* TSColorWheel.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -666,13 +662,12 @@
 			};
 			name = Debug;
 		};
-		46EB2E000003B0 /* Release */ = {
+		46EB2E000003C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000440 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000450 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -697,7 +692,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -706,13 +700,12 @@
 			};
 			name = Release;
 		};
-		46EB2E000003C0 /* Debug */ = {
+		46EB2E000003D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000450 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000460 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -737,8 +730,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -746,9 +737,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000510 /* Release */ = {
+		46EB2E00000520 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000005A0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000005B0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -784,9 +775,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000520 /* Debug */ = {
+		46EB2E00000530 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000005B0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000005C0 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -833,29 +824,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000001C0 /* Build configuration list for PBXNativeTarget "TSColorWheel" */ = {
+		46EB2E000001D0 /* Build configuration list for PBXNativeTarget "TSColorWheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000001E0 /* Debug */,
-				46EB2E000001D0 /* Release */,
+				46EB2E000001F0 /* Debug */,
+				46EB2E000001E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000003A0 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App" */ = {
+		46EB2E000003B0 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000003C0 /* Debug */,
-				46EB2E000003B0 /* Release */,
+				46EB2E000003D0 /* Debug */,
+				46EB2E000003C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000500 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension" */ = {
+		46EB2E00000510 /* Build configuration list for PBXNativeTarget "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000520 /* Debug */,
-				46EB2E00000510 /* Release */,
+				46EB2E00000530 /* Debug */,
+				46EB2E00000520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

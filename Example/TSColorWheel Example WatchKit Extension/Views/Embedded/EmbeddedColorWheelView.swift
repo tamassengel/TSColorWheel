@@ -5,13 +5,21 @@ struct EmbeddedColorWheelView: View {
     @ObservedObject var colorWheelSettings = TSColorWheelSettings.shared
 
     var body: some View {
-        VStack(spacing: 0) {
-            Spacer(minLength: 2)
-            TSColorWheel()
-            Spacer(minLength: 4)
-            RGBComponentsView()
-            Spacer(minLength: 2)
+        GeometryReader { metrics in
+            VStack(spacing: 0) {
+                Spacer(minLength: 2)
+
+                TSColorWheel()
+                    .frame(height: metrics.size.height - 40)
+
+                Spacer()
+
+                RGBComponentsView()
+                
+                Spacer(minLength: 2)
+            }
         }
         .navigationBarTitle("Embedded")
+        .edgesIgnoringSafeArea(.bottom)
     }
 }

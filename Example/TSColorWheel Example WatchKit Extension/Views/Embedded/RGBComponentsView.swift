@@ -23,22 +23,33 @@ struct RGBComponentsView: View {
         GeometryReader { metrics in
             getBody(metrics: metrics)
         }
-        .frame(height: 20)
     }
 
     func getBody(metrics: GeometryProxy) -> some View {
         let rgbComponents = self.rgbComponents
 
         return HStack(spacing: 0) {
-            getText("R: \(Int(round(rgbComponents.red * 255)))", metrics: metrics)
-            getText("G: \(Int(round(rgbComponents.green * 255)))", metrics: metrics)
-            getText("B: \(Int(round(rgbComponents.blue * 255)))", metrics: metrics)
+            getComponent(label: "R", componentValue: rgbComponents.red, metrics: metrics)
+            getComponent(label: "G", componentValue: rgbComponents.green, metrics: metrics)
+            getComponent(label: "B", componentValue: rgbComponents.blue, metrics: metrics)
         }
     }
 
-    func getText(_ text: String, metrics: GeometryProxy) -> some View {
-        Text(text)
-            .font(.footnote)
-            .frame(width: metrics.size.width / 3, alignment: .leading)
+    func getComponent(label: String, componentValue: CGFloat, metrics: GeometryProxy) -> some View {
+        HStack(spacing: 0) {
+            Spacer()
+
+            Text("\(label):")
+                .font(.system(size: 12))
+                .bold()
+                .frame(width: 16)
+
+            Text("\(Int(round(componentValue * 255)))")
+                .font(.system(size: 12))
+                .frame(width: 22, alignment: .trailing)
+
+            Spacer()
+        }
+        .frame(width: metrics.size.width / 3)
     }
 }

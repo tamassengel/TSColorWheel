@@ -57,7 +57,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/TSColorWheel Example WatchKit App">
+         RemotePath = "/TSColorWheel">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F43BBAB25716107002A72C9"
@@ -76,7 +76,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/TSColorWheel Example WatchKit App">
+         RemotePath = "/TSColorWheel">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F43BBAB25716107002A72C9"

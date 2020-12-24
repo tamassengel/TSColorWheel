@@ -5,9 +5,8 @@ struct SelectedColorView: View {
     @ObservedObject var colorWheelSettings = TSColorWheelSettings.shared
 
     var body: some View {
-        HStack(spacing: 8) {
+        VStack(spacing: 8) {
             Text("Selected Color:")
-                .font(.footnote)
 
             Circle()
                 .fill(Color(colorWheelSettings.color))

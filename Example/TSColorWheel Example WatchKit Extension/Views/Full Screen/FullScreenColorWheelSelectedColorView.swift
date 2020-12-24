@@ -14,7 +14,10 @@ struct FullScreenColorWheelSelectedColorView: View {
             Spacer(minLength: 24)
             
             Button {
-                NotificationCenter.default.post(name: NotifName.shouldShowColorWheel.name, object: nil)
+                WKExtension.shared().rootInterfaceController?.presentController(
+                    withName: VcConstants.colorWheel,
+                    context: nil
+                )
             } label: {
                 Text("Change Color")
             }

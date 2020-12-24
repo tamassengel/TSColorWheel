@@ -14,10 +14,10 @@
             </objects>
             <point key="canvasLocation" x="84" y="291"/>
         </scene>
-        <!--ColorWheel-->
+        <!--Color Wheel-->
         <scene sceneID="tQ4-AR-qPA">
             <objects>
-                <hostingController identifier="ColorWheel" id="Ibe-hp-CFB" customClass="TSColorWheelController" customModule="TSColorWheel"/>
+                <hostingController identifier="ColorWheel" title="Done" id="Ibe-hp-CFB" userLabel="Color Wheel" customClass="TSColorWheelController" customModule="TSColorWheel"/>
             </objects>
             <point key="canvasLocation" x="381" y="291"/>
         </scene>
