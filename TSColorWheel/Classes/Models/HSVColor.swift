@@ -1,27 +1,27 @@
 import SwiftUI
 
-public struct HSVColor: Equatable {
-    public var hue, saturation, brightness: CGFloat
+struct HSVColor: Equatable {
+    var hue, saturation, brightness: CGFloat
 
-    public var hsColor: HSColor { HSColor(hue: hue, saturation: saturation) }
+    var hsColor: HSColor { HSColor(hue: hue, saturation: saturation) }
 
-    public var uiColor: UIColor {
+    var uiColor: UIColor {
         UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: 1)
     }
 
-    public var isLightColor: Bool {
+    var isLightColor: Bool {
         brightness > 0.7 && (saturation < 0.4 || (hue >= 0.1 && hue <= 0.55))
     }
 
-    public var borderColor: UIColor { .init(white: isLightColor ? 0.1 : 1, alpha: 1) }
+    var borderColor: UIColor { .init(white: isLightColor ? 0.1 : 1, alpha: 1) }
 
-    public init(hue: CGFloat, saturation: CGFloat, brightness: CGFloat) {
+    init(hue: CGFloat, saturation: CGFloat, brightness: CGFloat) {
         self.hue = hue
         self.saturation = saturation
         self.brightness = brightness
     }
 
-    public init?(color: UIColor) {
+    init?(color: UIColor) {
         guard let cgColorSpace = CGColorSpace(name: CGColorSpace.displayP3) else {
             return nil
         }

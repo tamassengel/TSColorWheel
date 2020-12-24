@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0CC9BF497D51C6E850ADEACF /* Pods_TSColorWheel_Example_WatchKit_App_TSColorWheel_Example_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFBAA216F685C65AEFD8987 /* Pods_TSColorWheel_Example_WatchKit_App_TSColorWheel_Example_WatchKit_Extension.framework */; };
-		1F43BBAD25716107002A72C9 /* TSColorWheel Example WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F43BBAC25716107002A72C9 /* TSColorWheel Example WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F0A98EE2593A9C600F748B0 /* EmbeddedColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0A98ED2593A9C600F748B0 /* EmbeddedColorWheelView.swift */; };
+		1F409F462594212000F3BE45 /* FullScreenColorWheelSelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F409F452594212000F3BE45 /* FullScreenColorWheelSelectedColorView.swift */; };
+		1F409F512594228000F3BE45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F409F502594228000F3BE45 /* ContentView.swift */; };
+		1F409F562594232300F3BE45 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F409F552594232300F3BE45 /* ImageConstants.swift */; };
+		1F409F5D2594288800F3BE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F43BBB425716109002A72C9 /* Assets.xcassets */; };
+		1F409F6225942A4500F3BE45 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F409F6125942A4500F3BE45 /* CustomButtonStyle.swift */; };
+		1F409F7325943AC400F3BE45 /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F409F7225943AC400F3BE45 /* SelectedColorView.swift */; };
+		1F409F7E25943F0300F3BE45 /* RGBComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F409F7D25943F0300F3BE45 /* RGBComponentsView.swift */; };
+		1F43BBAD25716107002A72C9 /* TSColorWheel.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F43BBAC25716107002A72C9 /* TSColorWheel.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F43BBB325716107002A72C9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F43BBB125716107002A72C9 /* Interface.storyboard */; };
 		1F43BBB525716109002A72C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F43BBB425716109002A72C9 /* Assets.xcassets */; };
-		1F43BBBC25716109002A72C9 /* TSColorWheel Example WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F43BBBB25716109002A72C9 /* TSColorWheel Example WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F43BBBC25716109002A72C9 /* TSColorWheel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F43BBBB25716109002A72C9 /* TSColorWheel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F43BBC125716109002A72C9 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43BBC025716109002A72C9 /* HostingController.swift */; };
 		1F43BBC525716109002A72C9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F43BBC425716109002A72C9 /* ExtensionDelegate.swift */; };
-		1F43BBCD2571610A002A72C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F43BBCC2571610A002A72C9 /* Assets.xcassets */; };
 		1F43BBD02571610A002A72C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F43BBCF2571610A002A72C9 /* Preview Assets.xcassets */; };
+		1F4923362593F1E800ACC2FB /* VcConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4923352593F1E800ACC2FB /* VcConstants.swift */; };
 		28565AAF3B1BE78507854468 /* Pods_TSColorWheel_Example_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E712C3245D8035D56C303893 /* Pods_TSColorWheel_Example_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +51,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1F43BBBC25716109002A72C9 /* TSColorWheel Example WatchKit Extension.appex in Embed App Extensions */,
+				1F43BBBC25716109002A72C9 /* TSColorWheel.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +62,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				1F43BBAD25716107002A72C9 /* TSColorWheel Example WatchKit App.app in Embed Watch Content */,
+				1F43BBAD25716107002A72C9 /* TSColorWheel.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,17 +73,25 @@
 		08A46F606CB33465F01DEA15 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension/Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		19898EA0CDC89127A2005EE9 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSColorWheel Example WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-TSColorWheel Example WatchKit App/Pods-TSColorWheel Example WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		1D952F67E912FF9EE139A798 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSColorWheel Example WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-TSColorWheel Example WatchKit App/Pods-TSColorWheel Example WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		1F43BBA925716107002A72C9 /* TSColorWheel Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSColorWheel Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F43BBAC25716107002A72C9 /* TSColorWheel Example WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSColorWheel Example WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0A98ED2593A9C600F748B0 /* EmbeddedColorWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedColorWheelView.swift; sourceTree = "<group>"; };
+		1F409F452594212000F3BE45 /* FullScreenColorWheelSelectedColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FullScreenColorWheelSelectedColorView.swift; path = ../../../../../../../FullScreenColorWheelSelectedColorView.swift; sourceTree = "<group>"; };
+		1F409F502594228000F3BE45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F409F552594232300F3BE45 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		1F409F6125942A4500F3BE45 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		1F409F7225943AC400F3BE45 /* SelectedColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedColorView.swift; sourceTree = "<group>"; };
+		1F409F7D25943F0300F3BE45 /* RGBComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBComponentsView.swift; sourceTree = "<group>"; };
+		1F409F8425943F1700F3BE45 /* FullScreenColorWheelSelectedColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenColorWheelSelectedColorView.swift; sourceTree = "<group>"; };
+		1F43BBA925716107002A72C9 /* TSColorWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TSColorWheel.app; path = "TSColorWheel Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F43BBAC25716107002A72C9 /* TSColorWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TSColorWheel.app; path = "TSColorWheel Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F43BBB225716107002A72C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1F43BBB425716109002A72C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F43BBB625716109002A72C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F43BBBB25716109002A72C9 /* TSColorWheel Example WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TSColorWheel Example WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F43BBBB25716109002A72C9 /* TSColorWheel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = TSColorWheel.appex; path = "TSColorWheel Example.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F43BBC025716109002A72C9 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		1F43BBC425716109002A72C9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		1F43BBCC2571610A002A72C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F43BBCF2571610A002A72C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F43BBD12571610A002A72C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4923352593F1E800ACC2FB /* VcConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VcConstants.swift; sourceTree = "<group>"; };
 		32EBAFE7C0768802F9EBC5E5 /* Pods-TSColorWheel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSColorWheel_Example.debug.xcconfig"; path = "Target Support Files/Pods-TSColorWheel_Example/Pods-TSColorWheel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		363C3E121641023400BA33BA /* Pods_TSColorWheel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSColorWheel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4954761DD957DE9A3C8FDE37 /* Pods-TSColorWheel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSColorWheel_Example.release.xcconfig"; path = "Target Support Files/Pods-TSColorWheel_Example/Pods-TSColorWheel_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +99,7 @@
 		7068562C53BD3AB9AF967743 /* Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension/Pods-TSColorWheel Example WatchKit App-TSColorWheel Example WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		9051A4E8B5FD5F3479AE81EA /* Pods-TSColorWheel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSColorWheel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TSColorWheel_Tests/Pods-TSColorWheel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		97AEBBC839DA086818A7F3B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C1AD702C5E161CD3BD127D02 /* TSColorWheel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSColorWheel.podspec; path = ../TSColorWheel.podspec; sourceTree = "<group>"; };
+		C1AD702C5E161CD3BD127D02 /* TSColorWheel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSColorWheel.podspec; path = ../TSColorWheel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7847C5943FD60851415DF7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E419A5684B28925204E48986 /* Pods_TSColorWheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSColorWheel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E712C3245D8035D56C303893 /* Pods_TSColorWheel_Example_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSColorWheel_Example_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,12 +133,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F43BBB025716107002A72C9 /* TSColorWheel Example WatchKit App */ = {
+		1F0A98F22593AAC000F748B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F43BBB425716109002A72C9 /* Assets.xcassets */,
+				1F43BBB625716109002A72C9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F0A98F32593AAC400F748B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F0A98F42593AAD400F748B0 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F0A98F42593AAD400F748B0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				1F43BBB125716107002A72C9 /* Interface.storyboard */,
-				1F43BBB425716109002A72C9 /* Assets.xcassets */,
-				1F43BBB625716109002A72C9 /* Info.plist */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F0A98F52593AB1300F748B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F43BBC425716109002A72C9 /* ExtensionDelegate.swift */,
+				1F43BBD12571610A002A72C9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F0A98F92593AB6C00F748B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F324ACF2593EDCA00AEB6E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F43BBC025716109002A72C9 /* HostingController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F324AD02593EDE500AEB6E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F409F8325943F1000F3BE45 /* Full Screen */,
+				1F409F8225943F0600F3BE45 /* Embedded */,
+				1F409F452594212000F3BE45 /* FullScreenColorWheelSelectedColorView.swift */,
+				1F409F502594228000F3BE45 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F324AD12593EE9600AEB6E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F409F6125942A4500F3BE45 /* CustomButtonStyle.swift */,
+				1F324AD32593F01600AEB6E3 /* Constants */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F324AD32593F01600AEB6E3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1F409F552594232300F3BE45 /* ImageConstants.swift */,
+				1F4923352593F1E800ACC2FB /* VcConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1F409F8225943F0600F3BE45 /* Embedded */ = {
+			isa = PBXGroup;
+			children = (
+				1F0A98ED2593A9C600F748B0 /* EmbeddedColorWheelView.swift */,
+				1F409F7D25943F0300F3BE45 /* RGBComponentsView.swift */,
+			);
+			path = Embedded;
+			sourceTree = "<group>";
+		};
+		1F409F8325943F1000F3BE45 /* Full Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1F409F8425943F1700F3BE45 /* FullScreenColorWheelSelectedColorView.swift */,
+				1F409F7225943AC400F3BE45 /* SelectedColorView.swift */,
+			);
+			path = "Full Screen";
+			sourceTree = "<group>";
+		};
+		1F43BBB025716107002A72C9 /* TSColorWheel Example WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1F0A98F92593AB6C00F748B0 /* Models */,
+				1F0A98F32593AAC400F748B0 /* Views */,
+				1F0A98F22593AAC000F748B0 /* Supporting Files */,
 			);
 			path = "TSColorWheel Example WatchKit App";
 			sourceTree = "<group>";
@@ -130,10 +242,10 @@
 		1F43BBBF25716109002A72C9 /* TSColorWheel Example WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1F43BBCC2571610A002A72C9 /* Assets.xcassets */,
-				1F43BBC425716109002A72C9 /* ExtensionDelegate.swift */,
-				1F43BBC025716109002A72C9 /* HostingController.swift */,
-				1F43BBD12571610A002A72C9 /* Info.plist */,
+				1F324AD12593EE9600AEB6E3 /* Models */,
+				1F324AD02593EDE500AEB6E3 /* Views */,
+				1F324ACF2593EDCA00AEB6E3 /* Controllers */,
+				1F0A98F52593AB1300F748B0 /* Supporting Files */,
 				1F43BBCE2571610A002A72C9 /* Preview Content */,
 			);
 			path = "TSColorWheel Example WatchKit Extension";
@@ -177,9 +289,9 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F43BBA925716107002A72C9 /* TSColorWheel Example.app */,
-				1F43BBAC25716107002A72C9 /* TSColorWheel Example WatchKit App.app */,
-				1F43BBBB25716109002A72C9 /* TSColorWheel Example WatchKit Extension.appex */,
+				1F43BBA925716107002A72C9 /* TSColorWheel.app */,
+				1F43BBAC25716107002A72C9 /* TSColorWheel.app */,
+				1F43BBBB25716109002A72C9 /* TSColorWheel.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,7 +335,7 @@
 			);
 			name = "TSColorWheel Example";
 			productName = "TSColorWheel Example";
-			productReference = 1F43BBA925716107002A72C9 /* TSColorWheel Example.app */;
+			productReference = 1F43BBA925716107002A72C9 /* TSColorWheel.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		1F43BBAB25716107002A72C9 /* TSColorWheel Example WatchKit App */ = {
@@ -242,7 +354,7 @@
 			);
 			name = "TSColorWheel Example WatchKit App";
 			productName = "TSColorWheel Example WatchKit App";
-			productReference = 1F43BBAC25716107002A72C9 /* TSColorWheel Example WatchKit App.app */;
+			productReference = 1F43BBAC25716107002A72C9 /* TSColorWheel.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		1F43BBBA25716109002A72C9 /* TSColorWheel Example WatchKit Extension */ = {
@@ -261,7 +373,7 @@
 			);
 			name = "TSColorWheel Example WatchKit Extension";
 			productName = "TSColorWheel Example WatchKit Extension";
-			productReference = 1F43BBBB25716109002A72C9 /* TSColorWheel Example WatchKit Extension.appex */;
+			productReference = 1F43BBBB25716109002A72C9 /* TSColorWheel.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -326,8 +438,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F409F5D2594288800F3BE45 /* Assets.xcassets in Resources */,
 				1F43BBD02571610A002A72C9 /* Preview Assets.xcassets in Resources */,
-				1F43BBCD2571610A002A72C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +515,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F43BBC125716109002A72C9 /* HostingController.swift in Sources */,
+				1F409F512594228000F3BE45 /* ContentView.swift in Sources */,
 				1F43BBC525716109002A72C9 /* ExtensionDelegate.swift in Sources */,
+				1F409F7E25943F0300F3BE45 /* RGBComponentsView.swift in Sources */,
+				1F0A98EE2593A9C600F748B0 /* EmbeddedColorWheelView.swift in Sources */,
+				1F409F462594212000F3BE45 /* FullScreenColorWheelSelectedColorView.swift in Sources */,
+				1F4923362593F1E800ACC2FB /* VcConstants.swift in Sources */,
+				1F409F7325943AC400F3BE45 /* SelectedColorView.swift in Sources */,
+				1F409F6225942A4500F3BE45 /* CustomButtonStyle.swift in Sources */,
+				1F409F562594232300F3BE45 /* ImageConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,21 +565,22 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_ASSET_PATHS = "\"TSColorWheel Example WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 8J925PW5VP;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "TSColorWheel Example WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "TSColorWheel Example WatchKit Extension/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamassengel.tscolorwheel.TSColorWheel-Example.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -480,19 +601,20 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"TSColorWheel Example WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 8J925PW5VP;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "TSColorWheel Example WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "TSColorWheel Example WatchKit Extension/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamassengel.tscolorwheel.TSColorWheel-Example.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -506,7 +628,6 @@
 			baseConfigurationReference = 19898EA0CDC89127A2005EE9 /* Pods-TSColorWheel Example WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -514,15 +635,15 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 8J925PW5VP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IBSC_MODULE = TSColorWheel_Example_WatchKit_Extension;
-				INFOPLIST_FILE = "TSColorWheel Example WatchKit App/Info.plist";
+				INFOPLIST_FILE = "TSColorWheel Example WatchKit App/Supporting Files/Info.plist";
+				MARKETING_VERSION = 2.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamassengel.tscolorwheel.TSColorWheel-Example.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -537,7 +658,6 @@
 			baseConfigurationReference = 1D952F67E912FF9EE139A798 /* Pods-TSColorWheel Example WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -545,13 +665,13 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8J925PW5VP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IBSC_MODULE = TSColorWheel_Example_WatchKit_Extension;
-				INFOPLIST_FILE = "TSColorWheel Example WatchKit App/Info.plist";
+				INFOPLIST_FILE = "TSColorWheel Example WatchKit App/Supporting Files/Info.plist";
+				MARKETING_VERSION = 2.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamassengel.tscolorwheel.TSColorWheel-Example.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -570,15 +690,14 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 8J925PW5VP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamassengel.tscolorwheel.TSColorWheel-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 			};
@@ -594,13 +713,12 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8J925PW5VP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamassengel.tscolorwheel.TSColorWheel-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -656,6 +774,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "TSColorWheel Example";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -704,6 +823,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "TSColorWheel Example";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
