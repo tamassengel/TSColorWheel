@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/icon.svg">
+
 # TSColorWheel
 
 [![Version](https://img.shields.io/cocoapods/v/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
