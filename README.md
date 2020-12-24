@@ -8,7 +8,7 @@
 
 A color wheel/picker for watchOS based on [Colorful](https://github.com/hayashi311/Color-Picker-for-iOS) that uses the Digital Crown as a brightness slider.
 
-<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/capture.gif" alt="Screen Capture" width="180">
+<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/capture.gif" alt="Screen Capture" width="160">
 
 ## Usage
 
@@ -23,7 +23,7 @@ To use TSColorWheel in the storyboard, add a new Hosting Controller and change i
 
 Make sure to **uncheck** Inherit Module From Target.
 
-<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/storyboard_custom_class.png" alt="Screen Capture" width="263">
+<img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/storyboard_custom_class.png" alt="Screen Capture" width="257">
 
 ### Usage in a SwiftUI view structure
 

@@ -10,7 +10,7 @@ struct HSVColor: Equatable {
     }
 
     var isLightColor: Bool {
-        brightness > 0.7 && (saturation < 0.4 || (hue >= 0.1 && hue <= 0.55))
+        brightness > 0.75 && (saturation < 0.5 || (hue >= 0.05 && hue <= 0.55))
     }
 
     var borderColor: UIColor { .init(white: isLightColor ? 0.1 : 1, alpha: 1) }
