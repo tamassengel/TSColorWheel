@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/cocoapods/l/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 [![Platform](https://img.shields.io/cocoapods/p/TSColorWheel.svg?style=flat)](https://cocoapods.org/pods/TSColorWheel)
 
-A color wheel for watchOS based on [Colorful](https://github.com/hayashi311/Color-Picker-for-iOS) that uses the Digital Crown as a brightness slider.
+A color wheel/color picker for watchOS based on [Colorful](https://github.com/hayashi311/Color-Picker-for-iOS) that uses the Digital Crown as a brightness slider.
 
 <img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/capture.gif" alt="Screen Capture" width="180">
 
