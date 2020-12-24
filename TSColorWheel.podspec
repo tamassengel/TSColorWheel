@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'TSColorWheel'
-  s.version = '2.0'
+  s.version = '2.0.1'
   s.summary = 'A color wheel for watchOS based on Colorful'
   s.homepage = 'https://github.com/tamassengel/TSColorWheel'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
