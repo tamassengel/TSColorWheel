@@ -20,7 +20,7 @@ pod 'TSColorWheel'
 
 ## Usage
 
-You can use `TSColorWheelController` in your storyboard (recommended), or alternatively, use `TSColorWheel` in a SwiftUI view structure.
+You can use `TSColorWheelController` in your storyboard (recommended, so you can open a full screen controller modally), or alternatively, use `TSColorWheel` in a SwiftUI view structure.
 
 ### Usage in the Storyboard
 
@@ -71,7 +71,7 @@ watchOS 6.0
 ## Author
 
 Tamás Sengel  
-https://tamassengel.ml
+https://tamassengel.com
 
 ## License
 
