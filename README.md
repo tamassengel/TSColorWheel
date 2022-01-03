@@ -10,6 +10,14 @@ A color wheel/picker for watchOS based on [Colorful](https://github.com/hayashi3
 
 <img src="https://raw.githubusercontent.com/tamassengel/TSColorWheel/master/readme_images/capture.gif" alt="Screen Capture" width="160">
 
+## Installation
+
+TSColorWheel is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+
+```ruby
+pod 'TSColorWheel'
+```
+
 ## Usage
 
 You can use `TSColorWheelController` in your storyboard (recommended), or alternatively, use `TSColorWheel` in a SwiftUI view structure.
@@ -59,14 +67,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 watchOS 6.0
-
-## Installation
-
-TSColorWheel is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
-
-```ruby
-pod 'TSColorWheel'
-```
 
 ## Author
 
